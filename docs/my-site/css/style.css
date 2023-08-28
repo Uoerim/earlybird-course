@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66bfbf;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+    font-size: 2rem;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    height: calc(100vh - 100px);
+}
+.mountain-img{
+    width: 1000px;
+    margin: 0 0;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 500px);
+
+}
+.middle-container{
+}
+.profile{
+    height: 50vh;
+    padding: 100px 0;
+    width: 20%;
+    margin: 0 auto;
+}
+.profile > p{
+    text-align: justify;
+    line-height: 30px;
+
+}
+.profile img{
+    width: 250px;
+    border-radius: 50%;
+}
+.skill-row{
+     width: 50%;
+     margin: 100px auto;
+     text-align: left;
+     line-height: 2;
+     height: 30vh;
+}
+.skill-row > p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+.buttom-cloud {
+    position: absolute;
+    left: 500px;
+    top: 300px;
+
+}
+.first-skill-img{
+    width: 25%;
+    border-radius: 15px;
+    float: left;
+    margin-right: 30px;
+
+}
+.second-skill-img{
+    width: 25%;
+    border-radius: 15px;
+    float: right;
+    margin-left: 30px;
+}
+
+.underline-span {
+    text-decoration: underline;
+}
+.contact-me{
+    height: 30vh;
+    align-items: center;
+}
+.contact-me > h2{
+    font-size: 3.1rem;
+    margin-top: 100px;
+}
+.contact-me > h3{
+    font-size: 1.1rem;
+}
+.contact-me > a{
+    background-color: #11999e;
+    display: block;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 70px;
+    width: 250px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+.contact-me > a:hover{
+    background-color: #0a6265;
+    cursor: pointer;
+}
+.bottom-container{
+    background-color: #11999e;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-container > p{
+   font-size: 1.2rem;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.bottom-container a:hover{
+    cursor: pointer;
+    color: black;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+hr{
+    width: 100px;
+    list-style: dotted;
+    border: 8px gray;
+    border-style: dotted none none;
+}

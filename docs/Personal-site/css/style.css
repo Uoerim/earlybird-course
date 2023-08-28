@@ -1,0 +1,13 @@
+:root {}
+
+body {
+    background-color: #EAF6F6;
+}
+hr{
+    width: 10%;
+    border: 8px gray;
+    border-style: dotted none none;
+}
+h1,h3{
+    color: #66BFBF;
+}
